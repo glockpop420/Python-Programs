@@ -1,0 +1,15 @@
+#dictionary methods
+dict1={"key1":10,"key2":20,"key3":30,"key4":40,"key5":50}
+print(dict1)
+dict1_backup=dict1.copy()
+print(dict1_backup)
+dict1_backup.clear()
+print(dict1_backup)
+x=dict1.get("key2")
+print(x)
+y=dict1.values()
+print(y)
+item=dict1.pop("key3")
+print(dict1)
+z=dict1.items()
+print(z)
